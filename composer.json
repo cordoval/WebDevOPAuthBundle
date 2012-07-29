@@ -1,0 +1,35 @@
+{
+    "name": "web-dev/opauth-bundle",
+    "type": "symfony-bundle",
+    "description": "Integrates OPAuth into Symfony 2",
+    "keywords": [
+        "OPAuth",
+        "OAuth",
+        "OpenID",
+        "Authentication",
+        "Facebook",
+        "Twitter",
+        "Google"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah Truasheim",
+            "email": "josiah@web-dev.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "opauth/opauth": "*"
+    },
+    "suggest": {
+        "opauth/facebook": "Allows Facebook authentication",
+        "opauth/google": "Allows Google authentication",
+        "opauth/twitter": "Allows Twitter authentication"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "WebDev\\Bundle\\OPAuthBundle": "" }
+    },
+    "target-dir": "WebDev/Bundle/OPAuthBundle"
+}
